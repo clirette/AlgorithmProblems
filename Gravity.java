@@ -11,6 +11,13 @@ import java.util.Scanner;
  */
 public class Gravity {
 	//create a .txt file for the input grid (gravity.txt)
+	//'o' for apple (lowecase 'Oh'), '#' for obstacle, '.' for space.
+	/* ex:
+		3 3
+		ooo
+		#..
+		..#
+	*/
 	//command line: java Gravity < gravity.txt
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
