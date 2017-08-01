@@ -10,6 +10,8 @@ import java.util.Scanner;
  * @Version 8/1/17
  */
 public class Gravity {
+	//create a .txt file for the input grid (gravity.txt)
+	//command line: java Gravity < gravity.txt
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		String[] vars = input.nextLine().split(" ");
