@@ -21,7 +21,7 @@ public class ReverseWords {
 		int chars = 0;
 		int spaceOffset = 0;
 		for (int i=end; i>=0; i--) {
-			if (testString.charAt(i) == ' ') {
+			if (testString.charAt(i) == ' ' || testString.charAt(i) == '\t') {
 				spaceOffset++;
 				if (testString.charAt(i-1) == ' ') {
 					continue;
